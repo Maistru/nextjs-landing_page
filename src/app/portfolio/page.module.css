@@ -1,0 +1,39 @@
+.mainTitle {
+  font-size: 30px;
+}
+.selectTitle {
+  font-size: 30px;
+  margin: 20px 0px;
+  text-align: center;
+}
+/* .items {
+  display: grid;
+  gap: 50px;
+} */
+.item {
+  border: 5px solid #bbb;
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background-size: cover !important;
+}
+.item:nth-child(1) {
+  background: url("/karina.jpg");
+}
+.item:nth-child(2) {
+  background: url("/andras.jpg");
+}
+.item:nth-child(3) {
+  background: url("/balazs.jpg");
+}
+.item:hover .title {
+  color: turquoise;
+}
+.title {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}

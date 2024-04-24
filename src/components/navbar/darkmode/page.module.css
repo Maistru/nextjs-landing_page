@@ -1,0 +1,20 @@
+.mainIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border: 1.5px solid teal;
+  border-radius: 20px;
+  padding: 2px;
+}
+.icon {
+  font-size: 14px;
+}
+.ball {
+  background-color: teal;
+  width: 17px;
+  height: 17px;
+  border-radius: 20px;
+  position: absolute;
+  cursor: pointer;
+}
